@@ -1,0 +1,123 @@
+.text41 {
+    color: #8b6a60;
+    font-family: 'Lato' , 'Microsoft YaHei', '微软雅黑';
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    left: 10%;
+    bottom: 80%;    
+}
+
+.text42 {
+    color: #8b6a60;
+    font-family: 'Lato' , 'Microsoft YaHei', '微软雅黑';
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    left: 15%;
+    bottom: 80%;    
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .text42 {
+	opacity: 1;
+	transition-delay: 1s;
+}
+
+
+
+.img41{
+    position: absolute;
+    left: 3%;
+    height: 70%;
+    bottom: 5%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img41{
+    opacity: 1;
+    transition-delay: 2.5s;
+
+}
+
+.img42{
+    position: absolute;
+    left: 28%;
+    height: 35%;
+    bottom: 40%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img42{
+    opacity: 1;
+    transition-delay: 4s;
+
+}
+
+.img43{
+    position: absolute;
+    left: 28%;
+    height: 35%;
+    bottom: 5%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img43{
+    opacity: 1;
+    transition-delay: 5.5s;
+
+}
+
+.img44{
+    position: absolute;
+    left: 51%;
+    height: 35%;
+    bottom: 40%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img44{
+    opacity: 1;
+    transition-delay: 7s;
+
+}
+
+
+.img45{
+    position: absolute;
+    left: 51%;
+    height: 35%;
+    bottom: 5%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img45{
+    opacity: 1;
+    transition-delay: 8.5s;
+
+}
+
+.img46{
+    position: absolute;
+    left: 73%;
+    height: 70%;
+    bottom: 5%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img46{
+    opacity: 1;
+    transition-delay: 10s;
+
+}
+
+

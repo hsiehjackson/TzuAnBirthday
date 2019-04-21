@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta charset="UTF-8">
+ <title>Happy Birthday</title>
+ <link rel="stylesheet" href="../css/jquery.fullPage.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box0.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box1.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box2.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box3.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box4.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box5.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box6.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box7.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/bubbles.css" type="text/css" />
+</head>
+
+<body>
+<audio src="../music/1.mp3" autoplay="autoplay" loop="loop"></audio>
+<audio id="myAudio1" src="../audio/01.m4a" ></audio>
+<audio id="myAudio2" src="../audio/02.m4a" ></audio>
+<audio id="myAudio3" src="../audio/03.m4a" ></audio>
+<audio id="myAudio4" src="../audio/04.m4a" ></audio>
+<audio id="myAudio5" src="../audio/05.m4a" ></audio>
+<audio id="myAudio6" src="../audio/06.m4a" ></audio>
+<audio id="myAudio7" src="../audio/07.m4a" ></audio>
+<div class="bgcolor">
+<div style="z-index:100;" id="dowebok">
+        <!--第0屏-->
+        <div class="section">
+          <div class="ly-box01">
+                <div class="ly-txt01">
+                <p class="ly-stxt01">這一年下來</p>
+                <p class="ly-stxt02">其實也沒去多少地方</p>
+                <p class="ly-stxt03">可是能跟妳在一起</p>
+                <p class="ly-stxt04">就真的很開心了</p>
+                <p class="ly-stxt05">我知道我們都很忙很多事</p>
+                </div>
+                <div class="ly-txt02">
+                <p class="ly-stxt06">偶爾的夜市</p>
+                <p class="ly-stxt07">偶爾的小約會</p>
+                <p class="ly-stxt08">偶爾的吃午餐晚餐</p>
+                <p class="ly-stxt09">偷走時間</p>
+                <p class="ly-stxt10">就是想要多一點能和妳相處</p>
+                </div>
+            </div>
+        </div>
+        <!--第1屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint11"></div>
+            <div class="ly-box11">
+                <div class="ly-txt11">
+                    2018-04-27 @義饗食堂
+                </div>
+                <div class="ly-txt12">
+                    <p>抽獎抽到免費吃</p>
+                    <p>順便當慶生餐</p>
+                    <p>原諒我故意放很醜的照片哈哈</p>
+                </div>
+                <div class="ly-imgbox11" onclick="playAudio1();">
+                    <img class="ly-img11" src="../img/00.jpg">
+                </div>
+            </div>
+            <div class="ly-triangle11"></div>
+        </div>
+
+        <!--第2屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint21"></div>
+            <div class="ly-triangle21"></div>
+            <div class="ly-box21">
+                <div class="ly-txt21">
+                    2018-05-10 @音樂之夜
+                </div>
+                <div class="ly-txt22">
+                    <p>雖然完全沒看到表演</p>
+                    <p>但好險有及時趕上謝幕</p>
+                    <p>妳很美很漂亮ㄦ</p>
+                </div>
+                <div class="ly-imgbox21" onclick="playAudio2();">
+                    <img class="ly-img21" src="../img/01.jpg">
+                </div>
+            </div>
+        </div>
+
+        <!--第3屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint31"></div>
+            <div class="ly-triangle31"></div>
+            <div class="ly-box31">
+                <div class="ly-txt31">
+                    2018-09-04 @鼎泰豐,象山
+                </div>
+                <div class="ly-txt22">
+                    <p>暑假的小約會</p>
+                    <p>不知道多久沒吃的鼎泰豐</p>
+                    <p>小不開心妳跟別的男生跳舞=3=</p>
+                </div>
+                <div class="ly-imgbox31" onclick="playAudio3();">
+                    <img class="ly-img31" src="../img/02.jpg">
+                </div>
+            </div>
+            <div class="ly-box32">
+                <img class="ly-img32" src="../img/03.jpg">
+            </div>
+            <div class="ly-box33">
+                <img class="ly-img33" src="../img/04.jpg">
+            </div>
+        </div>
+
+        <!--第4屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint41"></div>
+            <div class="ly-triangle41"></div>
+            <div class="ly-box41">
+                <div class="ly-txt41">
+                    2018-11-25 @板橋
+                </div>
+                <div class="ly-txt42">
+                    <p>過了一年又回來板橋惹</p>
+                    <p>當初跟妳告白的地方</p>
+                    <p>不知不覺講一講就哭了的地方</p>
+                </div>
+                <div class="ly-imgbox41" onclick="playAudio4();">
+                    <img class="ly-img41" src="../img/05.jpg">
+                </div>
+            </div>
+            <div class="ly-box42">
+                <img class="ly-img42" src="../img/06.jpg">
+            </div>
+        </div>
+
+        <!--第5屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint51"></div>
+            <div class="ly-triangle51"></div>
+            <div class="ly-box51">
+                <div class="ly-txt51">
+                    2019-02-07 @苗栗南窩綠丘
+                </div>
+                <div class="ly-txt52">
+                <p>上山看辛苦工作的枇杷膏</p>
+                <p>兩天整個腦袋放空</p>
+                <p>幫忙弄民宿的事情滿好玩的</p>
+                </div>
+                <div class="ly-imgbox51" onclick="playAudio5();">
+                <img class="ly-img51" src="../img/07.jpg">
+                </div>
+            </div>
+            <div class="ly-box52">
+                <img class="ly-img52" src="../img/08.jpg">
+            </div>
+            <div class="ly-box53">
+                <img class="ly-img53" src="../img/09.jpg">
+            </div>
+        </div>
+        <!--第6屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint61"></div>
+            <div class="ly-triangle61"></div>
+            <div class="ly-box61">
+                <div class="ly-txt61">
+                    2019-02-28 @烏來
+                </div>
+                <div class="ly-txt62">
+                <p>說了好久終於泡到溫泉</p>
+                <p>簡單的老街，樸素的小鎮</p>
+                <p>小放鬆一下</p>
+                </div>
+                <div class="ly-imgbox61" onclick="playAudio6();">
+                <img class="ly-img61" src="../img/10.jpg">
+                </div>
+            </div>
+            <div class="ly-box62">
+                <img class="ly-img62" src="../img/11.jpg">
+            </div>
+            <div class="ly-box63">
+                    <img class="ly-img62" src="../img/12.jpg">
+            </div>
+        </div>
+</div>
+  <!--试验-->
+  <ul class="bg-bubbles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+</div>
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/jquery.fullPage.min.js"></script>
+  <!-- <script src="../js/auto-play.js"></script> -->
+  <script src="../js/memories.js"></script>
+  <script src="../js/play.js"></script>
+</body>
+</html>

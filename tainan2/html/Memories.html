@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta charset="UTF-8">
+ <title>Happy Birthday</title>
+ <link rel="stylesheet" href="../css/jquery.fullPage.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box0.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box1.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box2.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box3.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box4.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box5.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/box6.css" type="text/css"/>
+ <link rel="stylesheet" href="../css/bubbles.css" type="text/css" />
+</head>
+
+<body>
+<audio src="../music/1.mp3" autoplay="autoplay" loop="loop"></audio>
+<audio id="myAudio1" src="../audio/01.m4a" ></audio>
+<audio id="myAudio2" src="../audio/02.m4a" ></audio>
+<audio id="myAudio3" src="../audio/03.m4a" ></audio>
+<audio id="myAudio4" src="../audio/04.m4a" ></audio>
+<audio id="myAudio5" src="../audio/05.m4a" ></audio>
+<audio id="myAudio6" src="../audio/06.m4a" ></audio>
+<audio id="myAudio7" src="../audio/07.m4a" ></audio>
+<div class="bgcolor">
+<div style="z-index:100;" id="dowebok">
+        <!--第0屏-->
+        <div class="section">
+          <div class="ly-box01">
+                <div class="ly-txt01">
+                <p class="ly-stxt01">熟悉的溫度與味道</p>
+                <p class="ly-stxt02">住好一點</p>
+                <p class="ly-stxt03">吃多一點</p>
+                <p class="ly-stxt04">睡飽一點</p>
+                <p class="ly-stxt05">我們的軌跡打造整個台南</p>
+                </div>
+            </div>
+        </div>
+        <!--第1屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint11"></div>
+            <div class="ly-triangle11"></div>
+            <div class="ly-box11">
+                <div class="ly-txt11">
+                    2019-04-03 @台南市立美術館2館
+                </div>
+                <div class="ly-txt12">
+                   <p>上次整修，這次休館</p>
+                   <p>可是外面還是滿滿的人拾起相機</p>
+                   <p>即使只是一面白牆</p>
+                </div>
+                <div class="ly-imgbox11" onclick="playAudio1();">
+                    <img class="ly-img11" src="../img/01.jpg">
+                </div>
+            </div>
+            <div class="ly-box12">
+                <img class="ly-img12" src="../img/02.jpg">
+            </div>
+            <div class="ly-box13">
+                <img class="ly-img13" src="../img/03.jpg">
+            </div>
+            <div class="ly-box14">
+                <img class="ly-img14" src="../img/00.jpg">
+            </div>
+
+        </div>
+
+        <!--第2屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint21"></div>
+            <div class="ly-triangle21"></div>
+            <div class="ly-box21">
+                <div class="ly-txt21">
+                    2019-04-03 @大魚的祝福
+                </div>
+                <div class="ly-txt22">
+                    <p>全新的的一個景點</p>
+                    <p>可惜鯨魚比想像中小好多</p>
+                    <p>超晃不知道會不會倒</p>
+                </div>
+                <div class="ly-imgbox21" onclick="playAudio2();">
+                    <img class="ly-img21" src="../img/04.jpg">
+                </div>
+            </div>
+            <div class="ly-box22">
+                <img class="ly-img22" src="../img/05.jpg">
+            </div>
+            <div class="ly-box23">
+                <img class="ly-img23" src="../img/06.jpg">
+            </div>
+        </div>
+
+        <!--第3屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint31"></div>
+            <div class="ly-triangle31"></div>
+            <div class="ly-box31">
+                <div class="ly-txt31">
+                    2019-04-03 @漁光島
+                </div>
+                <div class="ly-txt32">
+                    <p></p>
+                    <p>夕陽餘暉粼粼在海面上</p>
+                    <p>Hugo說再不久這裡就要消失了</p>
+                    <p>沒有永遠留在沙灘上的腳印</p>
+                    <p>只有自然</p>
+                </div>
+                <div class="ly-imgbox31" onclick="playAudio3();">
+                    <img class="ly-img31" src="../img/07.jpg">
+                </div>
+            </div>
+            <div class="ly-box32">
+                <img class="ly-img32" src="../img/08.jpg">
+            </div>
+            <div class="ly-box33">
+                <img class="ly-img33" src="../img/09.jpg">
+            </div>
+        </div>
+
+        <!--第4屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint41"></div>
+            <div class="ly-triangle41"></div>
+            <div class="ly-box41">
+                <div class="ly-txt41">
+                    2019-04-04 @321藝術聚落
+                </div>
+                <div class="ly-txt42">
+                    <p>小小的一個社區</p>
+                    <p>古老的房與斑駁的牆</p>
+                    <p>貓貓探險隊出發囉</p>
+                </div>
+                <div class="ly-imgbox41" onclick="playAudio4();">
+                    <img class="ly-img41" src="../img/10.jpg">
+                </div>
+            </div>
+            <div class="ly-box42">
+                <img class="ly-img42" src="../img/11.jpg">
+            </div>
+            <div class="ly-box43">
+                <img class="ly-img43" src="../img/12.jpg">
+            </div>
+
+        </div>
+        <!--第5屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint51"></div>
+            <div class="ly-triangle51"></div>
+            <div class="ly-box51">
+                <div class="ly-txt51">
+                    2019-04-04 @歷史博物館
+                </div>
+                <div class="ly-txt52">
+                    <p>介紹很多台灣的博物館</p>
+                    <p>還有中小學教育變革的展覽</p>
+                    <p>隨便晃隨便繞</p>
+                    <p>超級餓...</p>
+                </div>
+                <div class="ly-imgbox51" onclick="playAudio5();">
+                    <img class="ly-img51" src="../img/13.jpg">
+                </div>
+            </div>
+            <div class="ly-box52">
+                <img class="ly-img52" src="../img/15.jpg">
+            </div>
+            <div class="ly-box53">
+                <img class="ly-img53" src="../img/16.jpg">
+            </div>
+            <div class="ly-box54">
+                <img class="ly-img54" src="../img/14.jpg">
+            </div>
+            <div class="ly-box55">
+                <img class="ly-img55" src="../img/17.jpg">
+            </div>
+        </div>
+        <!--第6屏-->
+        <div class="section">
+            <div class="timeline"></div>
+            <div class="timepoint61"></div>
+            <div class="ly-triangle61"></div>
+            <div class="ly-box61">
+                <div class="ly-txt61">
+                    2019-04-05 @藍晒文創
+                </div>
+                <div class="ly-txt62">
+                <p>很多很貴的精品小物</p>
+                <p>沒照片只好多塞一張大便</p>
+                </div>
+                <div class="ly-imgbox61" onclick="playAudio6();">
+                <img class="ly-img61" src="../img/18.jpg">
+                </div>
+            </div>
+            <div class="ly-box62">
+                <img class="ly-img62" src="../img/19.jpg">
+            </div>
+            <div class="ly-box63">
+                <img class="ly-img63" src="../img/20.jpg">
+            </div>
+            
+        </div>
+</div>
+  <!--试验-->
+  <ul class="bg-bubbles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+</div>
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/jquery.fullPage.min.js"></script>
+  <!-- <script src="../js/auto-play.js"></script> -->
+  <script src="../js/memories.js"></script>
+  <script src="../js/play.js"></script>
+</body>
+</html>

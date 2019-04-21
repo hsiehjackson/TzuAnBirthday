@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300italic);
+html,
+
+
+
+#lara_archer{
+	width: 300px;
+	height: 200px;
+	-vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  margin-top: 2em;
+}
+
+.final_section{
+	height: 300px;
+}
+.final_section>div{
+	margin: 0 auto;
+	line-height: 5em;
+	color: #8b6a60;
+  font-family: 'Lato' , 'Microsoft YaHei', '微软雅黑';
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+/* ============================================== Candle
+*/
+

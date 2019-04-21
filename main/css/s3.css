@@ -1,0 +1,163 @@
+.text31 {
+    color: #8b6a60;
+    font-family: 'Lato' , 'Microsoft YaHei', '微软雅黑';
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    left: 10%;
+    bottom: 80%;    
+    opacity: 0;
+    transition: all 1.5s;
+
+}
+
+.active .text31 {
+	opacity: 1;
+	transition-delay: 1s;
+}
+
+.img31{
+    position: absolute;
+    left: 5.5%;
+    height: 30%;
+    bottom: 40%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img31{
+    opacity: 1;
+    transition-delay: 1s;
+
+}
+
+.img32{
+    position: absolute;
+    left: 5.5%;
+    height: 30%;
+    bottom: 10%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img32{
+    opacity: 1;
+    transition-delay: 1s;
+
+}
+
+.text32{
+    color: #8b6a60;
+    font-family: 'Lato' , 'Microsoft YaHei', '微软雅黑';
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    left: 33%;
+    bottom: 80%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .text32 {
+	opacity: 1;
+	transition-delay: 2.5s;
+}
+
+.img33{
+    position: absolute;
+    left: 29%;
+    height: 30%;
+    bottom: 40%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img33{
+	opacity: 1;
+	transition-delay: 2.5s;
+
+}
+
+.img34{
+    position: absolute;
+    left: 29%;
+    height: 30%;
+    bottom: 10%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img34{
+	opacity: 1;
+	transition-delay: 2.5s;
+
+}
+
+.text33{
+    color: #8b6a60;
+    font-family: 'Lato' , 'Microsoft YaHei', '微软雅黑';
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    left: 56%;
+    bottom: 80%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .text33 {
+	opacity: 1;
+	transition-delay: 4s;
+}
+
+.img35{
+    position: absolute;
+    left: 53%;
+    height: 60%;
+    bottom: 10%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img35{
+	opacity: 1;
+	transition-delay: 4s;
+
+}
+
+
+.text34{
+    color: #8b6a60;
+    font-family: 'Lato' , 'Microsoft YaHei', '微软雅黑';
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    left: 80%;
+    bottom: 80%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .text34 {
+	opacity: 1;
+	transition-delay: 5.5s;
+}
+
+.img36{
+    position: absolute;
+    left: 74%;
+    height: 60%;
+    bottom: 10%;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.active .img36{
+	opacity: 1;
+	transition-delay: 5.5s;
+
+}

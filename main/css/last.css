@@ -1,0 +1,53 @@
+.final_section{
+	height: 300px;
+}
+.final_section>div{
+	margin: 0 auto;
+	line-height: 5em;
+	color: #8b6a60;
+  font-family: 'Lato' , 'Microsoft YaHei', '微软雅黑';
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+
+.textl1{
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  cursor: pointer;
+  font-family: Microsoft YaHei;
+}
+
+.textl2{
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+  cursor: pointer;
+  font-family: Microsoft YaHei;
+}
+
+
+.textl3{
+  position: absolute;
+  left: 55%;
+  bottom: 0;
+  cursor: pointer;
+  font-family: Microsoft YaHei;
+}
+
+.textl4{
+  position: absolute;
+  left: 65%;
+  bottom: 0;
+  cursor: pointer;
+  font-family: Microsoft YaHei;
+}
+
+.textlt{
+  position: absolute;
+  left: 49%;
+  bottom:  0%;
+  cursor: pointer;
+  font-family: Microsoft YaHei;
+}
